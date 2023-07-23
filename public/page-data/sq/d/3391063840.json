@@ -1,0 +1,19 @@
+{
+  "data": {
+    "projects": {
+      "edges": [
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Algorithmic Toolbox - UC San Diego",
+              "tech": ["Python", "Ren'Py"],
+              "github": null,
+              "external": "https://www.coursera.org/account/accomplishments/verify/AUVAXNQQBXTU"
+            },
+            "html": "<p>A light-weight, extensible rhythm game engine that had 250+ downloads in a month and rated 5-stars on itch.io.</p>"
+          }
+        }
+      ]
+    }
+  }
+}
