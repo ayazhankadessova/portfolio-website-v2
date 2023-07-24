@@ -23,9 +23,9 @@ const StyledText = styled.div`
   ul.skills-list {
     //display: grid;
     //grid-template-columns: repeat(2, minmax(300px, 200px));
-    display:inline-block;
+    display: inline-block;
     width: 200px;
-    vertical-align:top;
+    vertical-align: top;
     padding: 0;
     margin: 0 0 0 0;
     overflow: hidden;
@@ -52,24 +52,24 @@ const StyledText = styled.div`
       grid-template-columns: 1fr;
     }
   }
-  
-    .skills-list-without-dots {
-      position: relative;
-      margin-bottom: 10px;
-      padding-left: 20px;
-      font-family: var(--font-mono);
-      font-size: var(--fz-xs);
-      font-weight: bold;
 
-      &:before {
-        content: '>';
-        position: absolute;
-        left: 0;
-        color: var(--green);
-        font-size: var(--fz-sm);
-        line-height: 15px;
-      }
+  .skills-list-without-dots {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+    font-weight: bold;
+
+    &:before {
+      content: '>';
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-size: var(--fz-sm);
+      line-height: 15px;
     }
+  }
 `;
 
 const StyledPic = styled.div`
@@ -153,8 +153,22 @@ const About = () => {
   }, []);
 
   //const skills = ['Python', "Terraform", 'Java', "AWS, Azure", 'SQL & Oracle', "Dynatrace, Gaia", 'HTML & CSS', "Jules, Jenkins, Groovy", 'Javascript, React.js', "Grafana", "Node.js, Typescript", "Node.js, Typescript"];
-  const webSkills = ['Python', 'Java', 'SQL & Oracle', 'HTML & CSS', 'Javascript, React.js', "Node.js, Typescript"];
-  const otherSkills = ["Terraform", "AWS, Azure", "Dynatrace, Gaia", "Jules, Jenkins, Groovy", "Grafana", "Node.js, Typescript"];
+  const webSkills = [
+    'Python',
+    'Java',
+    'SQL & Oracle',
+    'HTML & CSS',
+    'Javascript, React.js',
+    'Node.js, Typescript',
+  ];
+  const otherSkills = [
+    'Terraform',
+    'AWS, Azure',
+    'Dynatrace, Gaia',
+    'Jules, Jenkins, Groovy',
+    'Grafana',
+    'Node.js, Typescript',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -163,36 +177,45 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Hello! My name is Aya!
-            </p>
+            <p>Hello! My name is Aya!</p>
 
             <p>
-            I love participating in hackathons – 
-            I even traveled all the way to one in Denmark. 
-            We earned 3rd place based on the latency 
-            and the number of data points! I shared my experience here.
+              I love participating in hackathons – I even traveled all the way to one in Denmark. We
+              earned <a href="https://bit.ly/bucs-a182">3rd place</a> based on the latency and the
+              number of data points! I shared my experience{' '}
+              <a href="https://www.linkedin.com/posts/ayazhankad_auhack-hackathon-incommodities-activity-7045769900644040704-bs-z?utm_source=share&utm_medium=member_desktop">
+                here
+              </a>
+              .
             </p>
             <p>
-            I enjoy building projects on my own for fun! While learning React.js, 
-            I created TripGenie, a personalized itinerary generator with the OpenAI API. 
-            Recently, I am also interested in Cloud Infrastructure Management, Monitoring, 
-            and Observability, exploring automation tools like Terraform in AWS, Azure, 
-            and other providers. I created a development environment in Azure that 
-            I can SSH into to have my re-deployable environment and uploaded it with Docker for future projects.
+              I enjoy building projects on my own for fun! While learning React.js, I created{' '}
+              <a href="https://github.com/ayazhankadessova/trip-generator-with-OpenAI">TripGenie</a>
+              , a personalized itinerary generator with the OpenAI API.
             </p>
             <p>
-            I am also passionate about sharing my knowledge. 
-            My favorite event organized as a Women Techmakers Ambassador at 
-            Google is a web scraping workshop at HKBU with 100 participants. 
-            Also, I have mentored students in CS & Data Science at HKBU and 
-            Qwasar Silicon Valley Tech Talents Training.
+              Recently, I am also interested in Cloud Infrastructure Management, Monitoring, and
+              Observability, exploring automation tools like Terraform in AWS, Azure, and other
+              providers. I created a{' '}
+              <a href="https://github.com/ayazhankadessova/dev-environment-tf-azure">
+                Development environment in Azure{' '}
+              </a>{' '}
+              that I can SSH into to have my re-deployable environment and uploaded it with Docker
+              for future projects.
             </p>
             <p>
-            To explore my leadership and community-building 
-            skills even more, I am a Google Student Developer 
-            Club Lead at HKBU this year. I'm so excited to have 
-            a tech community on my campus!
+              I am also passionate about sharing my knowledge. My favorite event organized as a
+              Women Techmakers Ambassador at Google is a{' '}
+              <a href="https://www.linkedin.com/posts/ayazhankad_today-i-was-the-speaker-for-the-hands-on-activity-7038903549317050368-JdYM?utm_source=share&utm_medium=member_desktop">
+                Web scraping workshop at HKBU
+              </a>
+              with 100 participants. Also, I have mentored students in CS & Data Science at HKBU and
+              Qwasar Silicon Valley Tech Talents Training.
+            </p>
+            <p>
+              To explore my leadership and community-building skills even more, I am a Google
+              Student Developer Club Lead at HKBU this year. I'm so excited to have a tech community
+              on my campus!
             </p>
 
             <p>Here are my favorite technologies for building amazing apps:</p>
