@@ -241,7 +241,6 @@ const Projects = () => {
 
           <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />
         </header>
-
       </div>
     );
   };
@@ -250,9 +249,9 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Certificates & Awards</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
+      {/* <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
-      </Link>
+      </Link> */}
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
