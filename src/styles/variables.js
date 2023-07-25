@@ -3,7 +3,7 @@ import { css } from 'styled-components';
 const variables = css`
   :root {
     --dark-navy: #0a192f;
-    --navy: #ECE5C7;
+    --navy: #ece5c7;
     --light-navy: #f0eae7;
     --lightest-navy: #f7f3f1;
     --navy-shadow: rgba(2, 12, 27, 0.7);
@@ -13,7 +13,7 @@ const variables = css`
     --lightest-slate: #474745;
     --white: #e6f1ff;
     --green: #e86422;
-    --green-tint-dark: #E55807;
+    --green-tint-dark: #e55807;
     --green-tint: #f6bdb9;
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
@@ -36,7 +36,7 @@ const variables = css`
     --tab-width: 120px;
 
     --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
-    --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    --transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     --hamburger-width: 30px;
 
@@ -44,7 +44,7 @@ const variables = css`
     --ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
     --ham-after: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     --ham-after-active: bottom 0.1s ease-out,
-    transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+      transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
   }
 `;
 
