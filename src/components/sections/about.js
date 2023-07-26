@@ -185,9 +185,12 @@ const About = () => {
               <a href="https://www.linkedin.com/posts/ayazhankad_today-i-was-the-speaker-for-the-hands-on-activity-7038903549317050368-JdYM?utm_source=share&utm_medium=member_desktop">
                 Web Scraping Workshop
               </a>{' '}
-              with 100 participants from both non-CS/CS background. Also, I have <b>mentored</b> 8 6
-              students in CS & 30 in Data Science at HKBU and Qwasar Silicon Valley Tech Talents
-              Training, respectively.
+              with 100 participants from both non-CS/CS background. Also, I have <b>mentored</b> 6
+              students in CS & 30 in Data Science at HKBU and{' '}
+              <a href="https://www.google.com/search?client=safari&rls=en&q=Qwasar+Silicon+Valley+Tech+Talents++++++++++++++++Trainin&ie=UTF-8&oe=UTF-8">
+                Qwasar Silicon Valley Tech Talents Training{' '}
+              </a>{' '}
+              , respectively.
             </p>
             <p>
               To explore my <b>leadership</b> and <b>community-building skills</b> even more, I am a{' '}
