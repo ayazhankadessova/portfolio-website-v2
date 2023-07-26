@@ -10,7 +10,7 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  padding: 0;
+  padding: 50px;
 
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 10vh;
@@ -63,15 +63,25 @@ const Hero = () => {
   const two = <h2 className="big-heading">Ayazhan Kadessova.</h2>;
   const three = <h3 className="big-heading">I am passionate about all things tech :&#41;</h3>;
   const four = (
-    <p>
-      I am a Software Engineering Intern at {' '}
-      <a href='https://careers.jpmorgan.com/global/en/students/programs/software-engineer-summer?search=&tags=' target='_blank'>J.P. Morgan</a>, 
-      aspiring Software Developer and a passionate learner. 
-      I am pursuing BSc in Computer Science, 
-      with a concentration in Computing and Software Technologies at {' '}
-      <a href='https://www.hkbu.edu.hk/' target='_blank'>Hong Kong Baptist University</a>.
-      
-    </p>
+    <>
+      <p>
+        I am a <b>Software Engineering Intern</b> at{' '}
+        <a
+          href="https://careers.jpmorgan.com/global/en/students/programs/software-engineer-summer?search=&tags="
+          target="_blank">
+          J.P. Morgan
+        </a>
+        , aspiring Software Developer and a life-long learner.
+      </p>
+      <p>
+        I am pursuing <b>BSc in Computer Science</b>, with a concentration in Computing and Software
+        Technologies at{' '}
+        <a href="https://www.hkbu.edu.hk/" target="_blank">
+          Hong Kong Baptist University
+        </a>
+        .
+      </p>
+    </>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">

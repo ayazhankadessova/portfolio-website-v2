@@ -156,23 +156,23 @@ const About = () => {
             <p>Hello! My name is Aya!</p>
 
             <p>
-              I love participating in hackathons – I even traveled all the way to one in Denmark. We
-              earned <a href="https://bit.ly/bucs-a182">3rd place</a> based on the latency and the
-              number of data points! I shared my experience{' '}
+              <b> I love participating in Hackathons </b> – I even traveled all the way to one in
+              Denmark. We earned <a href="https://bit.ly/bucs-a182">3rd place</a> based on the
+              latency and the number of data points! I shared my experience{' '}
               <a href="https://www.linkedin.com/posts/ayazhankad_auhack-hackathon-incommodities-activity-7045769900644040704-bs-z?utm_source=share&utm_medium=member_desktop">
                 here
               </a>
               .
             </p>
             <p>
-              I enjoy building projects on my own for fun! While learning React.js, I created{' '}
+              I enjoy <b>building projects on my own for fun!</b> While learning React.js, I created{' '}
               <a href="https://github.com/ayazhankadessova/trip-generator-with-OpenAI">TripGenie</a>
               , a personalized itinerary generator with the OpenAI API.
             </p>
             <p>
-              Recently, I am also interested in Cloud Infrastructure Management, Monitoring, and
-              Observability, exploring automation tools like Terraform in AWS, Azure, and other
-              providers. I created a{' '}
+              Recently, I am also interested in{' '}
+              <b>Cloud Infrastructure Management, Monitoring, and Observability</b>, exploring
+              automation tools like <b>Terraform in AWS, Azure, and other providers</b>. I created a{' '}
               <a href="https://github.com/ayazhankadessova/dev-environment-tf-azure">
                 Development environment in Azure{' '}
               </a>{' '}
@@ -180,21 +180,22 @@ const About = () => {
               for future projects.
             </p>
             <p>
-              I am also passionate about sharing my knowledge. My favorite event organized as a
-              Women Techmakers Ambassador at Google is a{' '}
+              I am also passionate about <b>sharing my knowledge</b>. My favorite event organized as
+              a Women Techmakers Ambassador at Google is a{' '}
               <a href="https://www.linkedin.com/posts/ayazhankad_today-i-was-the-speaker-for-the-hands-on-activity-7038903549317050368-JdYM?utm_source=share&utm_medium=member_desktop">
-                Web scraping workshop at HKBU
-              </a>
-              with 100 participants. Also, I have mentored students in CS & Data Science at HKBU and
-              Qwasar Silicon Valley Tech Talents Training.
+                Web Scraping Workshop
+              </a>{' '}
+              with 100 participants from both non-CS/CS background. Also, I have <b>mentored</b> 8 6
+              students in CS & 30 in Data Science at HKBU and Qwasar Silicon Valley Tech Talents
+              Training, respectively.
             </p>
             <p>
-              To explore my leadership and community-building skills even more, I am a Google
-              Student Developer Club Lead at HKBU this year. I'm so excited to have a tech community
-              on my campus!
+              To explore my <b>leadership</b> and <b>community-building skills</b> even more, I am a{' '}
+              <b>Google Student Developer Club Lead at HKBU</b> this year. I'm so excited to have a
+              tech community on my campus!
             </p>
 
-            <p>Here are my favorite technologies for building amazing apps:</p>
+            <p>Here are my favorite technologies:</p>
           </div>
           <br />
           <h4 className="skills-list-without-dots">Frontend/Backend development:</h4>
