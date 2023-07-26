@@ -1,8 +1,8 @@
 ---
-date: ''
+date: '2022-5-22'
 title: 'Terraform Associate - Hashicorp'
 github: 'https://github.com/ayazhankadessova/dev-environment-tf-azure'
-external: 'https://www.udemy.com/course/ultimate-terraform-course-for-devops-beginner-to-advanced/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879423894_._ad_535397245857_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171032_._li_1009806_._pd__._&matchtype=&gclid=Cj0KCQjw_O2lBhCFARIsAB0E8B-suhrIa7b8yYGNdFjJSx-p5306B8LfXVLPniM1-ykiVAhPNOTXtCAaAhpvEALw_wcB'
+external: 'https://www.credly.com/badges/52b619d0-9304-4a6f-bc22-3f05b057113c/linked_in?t=rycwkt'
 android: ''
 ios: ''
 showInProjects: true

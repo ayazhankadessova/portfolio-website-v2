@@ -19,18 +19,15 @@ const StyledAboutSection = styled.section`
     }
   }
 `;
+
 const StyledText = styled.div`
   ul.skills-list {
-    //display: grid;
-    //grid-template-columns: repeat(2, minmax(300px, 200px));
-    display: inline-block;
-    width: 200px;
-    vertical-align: top;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
     padding: 0;
-    margin: 0 0 0 0;
+    margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
-    margin-top: 5px;
 
     li {
       position: relative;
@@ -47,27 +44,6 @@ const StyledText = styled.div`
         font-size: var(--fz-sm);
         line-height: 12px;
       }
-    }
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  .skills-list-without-dots {
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    font-family: var(--font-mono);
-    font-size: var(--fz-xs);
-    font-weight: bold;
-
-    &:before {
-      content: '>';
-      position: absolute;
-      left: 0;
-      color: var(--green);
-      font-size: var(--fz-sm);
-      line-height: 15px;
     }
   }
 `;
@@ -157,17 +133,17 @@ const About = () => {
     'Python',
     'Java',
     'SQL & Oracle',
-    'HTML & CSS',
-    'Javascript, React.js',
+    'HTML & CSS & Javascript',
+    'React.js',
     'Node.js, Typescript',
   ];
   const otherSkills = [
     'Terraform',
     'AWS, Azure',
-    'Dynatrace, Gaia',
+    'Dynatrace',
     'Jules, Jenkins, Groovy',
     'Grafana',
-    'Node.js, Typescript',
+    'Gaia',
   ];
 
   return (
@@ -220,14 +196,15 @@ const About = () => {
 
             <p>Here are my favorite technologies for building amazing apps:</p>
           </div>
-
+          <br />
+          <h4 className="skills-list-without-dots">Frontend/Backend development:</h4>
           <ul className="skills-list">
-            <li className="skills-list-without-dots">Frontend/Backend development:</li>
             {webSkills && webSkills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
 
+          <br />
+          <h4 className="skills-list-without-dots">SRE/Cloud/Others:</h4>
           <ul className="skills-list">
-            <li className="skills-list-without-dots">SRE/Cloud/Others:</li>
             {otherSkills && otherSkills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
