@@ -1,12 +1,15 @@
 ---
-date: '2020-10-4'
+date: '2019-9-1'
 title: 'Development environment in Azure'
 cover: './screen3.png'
 github: 'https://github.com/ayazhankadessova/dev-environment-tf-azure'
 external: 'https://github.com/ayazhankadessova/dev-environment-tf-azure'
 tech:
-  - HCL
+  - Terraform,
+  - Azure,
+  - HCL,
   - Shell
+
 showInProjects: true
 ---
 

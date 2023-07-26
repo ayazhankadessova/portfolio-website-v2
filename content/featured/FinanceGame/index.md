@@ -1,14 +1,19 @@
 ---
-date: '2019-9-1'
-title: 'FinanceGame'
+date: '2020-10-4'
+title: 'LearnBU: Financial Literacy Game'
 cover: './screen2.png'
 github: 'https://github.com/ayazhankadessova/FinanceGame'
 external: 'https://ayazhankadessova.github.io/FinanceGame/'
 tech:
-  - JavaScript
-  - HTML
-  - CSS
+  - JavaScript,
+  - HTML,
+  - CSS,
+  - Financial Literacy,
+  - Community Service
 showInProjects: true
 ---
 
-LEarnBU: Web-based Financial Literacy Game built to improve students' personal finance skills. Users can choose a story to play, with each character dealing with different aspects of personal finance.
+- Created a web-based financial literacy game with different storylines for each character to help HKBU students learn personal financing.
+- Engaged 50 players and based on pre-game and post-game scores, helped 82% acquire knowledge in investing, retirement planning, credit.
+
+- <a href = 'https://trip-generator-openai.netlify.app'>Live Demo</a>
