@@ -10,7 +10,7 @@ const StyledHobbiesSection = styled.section`
 
   .inner {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 3fr;
     grid-gap: 50px;
 
     @media (max-width: 768px) {
@@ -21,29 +21,73 @@ const StyledHobbiesSection = styled.section`
 `;
 
 const StyledText = styled.div`
-  ul.skills-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    padding: 0;
-    margin: 20px 0 0 0;
-    overflow: hidden;
-    list-style: none;
+  margin-top: 40px;
+`;
 
-    li {
-      position: relative;
-      margin-bottom: 10px;
-      padding-left: 20px;
-      font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+const StyledPic = styled.div`
+  position: relative;
+  max-width: 300px;
 
-      &:before {
-        content: '❖';
-        position: absolute;
-        left: 0;
-        color: var(--green);
-        font-size: var(--fz-sm);
-        line-height: 12px;
+  @media (max-width: 768px) {
+    margin: 50px auto 0;
+    width: 70%;
+  }
+
+  .wrapper {
+    ${({ theme }) => theme.mixins.boxShadow};
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: var(--green);
+
+    &:hover,
+    &:focus {
+      background: transparent;
+      outline: 0;
+
+      &:after {
+        top: 15px;
+        left: 15px;
       }
+
+      .img {
+        filter: none;
+        mix-blend-mode: normal;
+      }
+    }
+
+    .img {
+      position: relative;
+      border-radius: var(--border-radius);
+      // mix-blend-mode: multiply;
+      // filter: grayscale(100%) contrast(1);
+      transition: var(--transition);
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--border-radius);
+      transition: var(--transition);
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+      background-color: var(--navy);
+      mix-blend-mode: screen;
+    }
+
+    &:after {
+      border: 2px solid var(--green);
+      top: 20px;
+      left: 20px;
+      z-index: -1;
     }
   }
 `;
@@ -60,19 +104,56 @@ const Hobbies = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
   return (
-    <StyledHobbiesSection id="hobbies">
+    <section id="hobbies">
       <h2 className="numbered-heading">My Hobbies :)</h2>
+      <StyledHobbiesSection>
+        <div className="inner">
+          <StyledPic>
+            <div className="wrapper">
+              <StaticImage
+                className="img"
+                src="../../images/me.jpg"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Headshot"
+              />
+            </div>
+          </StyledPic>
+          <StyledText>
+            <div>
+              <p>
+                Apart from my tech experience, I have a diverse range of hobbies that bring me joy:
+                - Outdoor sports: running, swimming, and volleyball, which I played throughout high
+                school and university. - Skiing --- I believe that the best ski resort is located in
+                Oskemen, Kazakhstan. Additionally, I enjoy going to the gym and prefer to do so with
+                friends, making it a fun social activity.
+              </p>
+              <p>
+                - YouTube channel where I share vlogs from special moments in my life, such as my
+                first day of university or my solo trip to Europe.
+              </p>
+              <p>
+                - Podcasts and books, particularly ones that explore public policy and social
+                issues. One of my all-time favorite books is "Invisible Women" by Caroline Criado
+                Perez, which offers a groundbreaking perspective on gender inequality and its impact
+                on women's lives. - I am also passionate about participating in hackathons, such as
+                Techathon, Cybher, and Swire, which allow me to showcase my skills and collaborate
+                with like-minded individuals.
+              </p>
 
-      <div className="inner">
-        <StyledText>
-          <div>
-            <p>Sports, YouTube, Hackathons, Exploring smth new, coffee hopping :)</p>
-            <p>*This page is in process...*</p>
-          </div>
-          <br />
-        </StyledText>
-      </div>
-    </StyledHobbiesSection>
+              <p>
+                {' '}
+                Lastly, I love going on coffee hops to explore new cafes and try different blends,
+                which is both relaxing and energizing.
+              </p>
+              <p>*This page is in process...*</p>
+            </div>
+            <br />
+          </StyledText>
+        </div>
+      </StyledHobbiesSection>{' '}
+    </section>
   );
 };
 
