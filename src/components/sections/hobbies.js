@@ -5,7 +5,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
-const StyledAboutSection = styled.section`
+const StyledHobbiesSection = styled.section`
   max-width: 900px;
 
   .inner {
@@ -48,74 +48,6 @@ const StyledText = styled.div`
   }
 `;
 
-const StyledPic = styled.div`
-  position: relative;
-  max-width: 300px;
-
-  @media (max-width: 768px) {
-    margin: 50px auto 0;
-    width: 70%;
-  }
-
-  .wrapper {
-    ${({ theme }) => theme.mixins.boxShadow};
-    display: block;
-    position: relative;
-    width: 100%;
-    border-radius: var(--border-radius);
-    background-color: var(--green);
-
-    &:hover,
-    &:focus {
-      background: transparent;
-      outline: 0;
-
-      &:after {
-        top: 15px;
-        left: 15px;
-      }
-
-      .img {
-        filter: none;
-        mix-blend-mode: normal;
-      }
-    }
-
-    .img {
-      position: relative;
-      border-radius: var(--border-radius);
-      // mix-blend-mode: multiply;
-      // filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
-    }
-
-    &:before,
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--border-radius);
-      transition: var(--transition);
-    }
-
-    &:before {
-      top: 0;
-      left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
-    }
-
-    &:after {
-      border: 2px solid var(--green);
-      top: 20px;
-      left: 20px;
-      z-index: -1;
-    }
-  }
-`;
-
 const Hobbies = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -127,8 +59,21 @@ const Hobbies = () => {
 
     sr.reveal(revealContainer.current, srConfig());
   }, []);
+  return (
+    <StyledHobbiesSection id="hobbies">
+      <h2 className="numbered-heading">My Hobbies :)</h2>
 
-  return <h1>hey</h1>;
+      <div className="inner">
+        <StyledText>
+          <div>
+            <p>Sports, YouTube, Hackathons, Exploring smth new, coffee hopping :)</p>
+            <p>*This page is in process...*</p>
+          </div>
+          <br />
+        </StyledText>
+      </div>
+    </StyledHobbiesSection>
+  );
 };
 
 export default Hobbies;
