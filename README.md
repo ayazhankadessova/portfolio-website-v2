@@ -1,5 +1,5 @@
 <h2 align="center">
- <img src="https://media.giphy.com/media/fGL6oc26zsv6sA1sLx/giphy.gif" width="90">Portfolio Website - v2 <img src="https://media.giphy.com/media/fGL6oc26zsv6sA1sLx/giphy.gif" width="90">
+ <img src="https://media.giphy.com/media/lnt36j6gR1FfSh83ct/giphy.gif" width="90">Portfolio Website - v2 <img src="https://media.giphy.com/media/lnt36j6gR1FfSh83ct/giphy.gif" width="90">
 </h2>
 
 `Gatsby`, `React`
@@ -13,9 +13,8 @@ After repeatedly coming across Gatsby on YouTube, I was motivated to give it a t
 ## Links & Demo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92df0046-adaf-4ece-9fa8-004b36b780cf/deploy-status)](https://app.netlify.com/sites/ayazhan-kadessova/deploys)
-
 <h2 align="center">
- <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/5438b555-d3e9-45b5-b75d-eddafc480d3f" width="700"> 
+ <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/6942d916-432c-4d90-b120-400d252e9cd5" width="700"> 
 </h2>
 
 ## 🛠 Installation & Set Up
