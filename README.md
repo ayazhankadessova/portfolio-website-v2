@@ -9,3 +9,4 @@ TODO:
 
 1. Add pic to hobbies
 2. Change icon in hobbies
+3. make page flowing

@@ -128,7 +128,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  //const skills = ['Python', "Terraform", 'Java', "AWS, Azure", 'SQL & Oracle', "Dynatrace, Gaia", 'HTML & CSS', "Jules, Jenkins, Groovy", 'Javascript, React.js', "Grafana", "Node.js, Typescript", "Node.js, Typescript"];
   const webSkills = [
     'Python',
     'Java',

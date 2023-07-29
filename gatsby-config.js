@@ -3,10 +3,9 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Ayazhankad',
-    description: 'Ayazhan is a software engineer, hobbyist game developer',
-    siteUrl: 'https://ruolinzheng08.github.io', // No trailing slash allowed!
+    description: 'Ayazhan is a software engineer',
+    siteUrl: 'https://ayazhan-kadessova.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: 'lynnzheng08',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

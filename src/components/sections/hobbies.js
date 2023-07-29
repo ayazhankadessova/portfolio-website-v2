@@ -25,6 +25,7 @@ const StyledText = styled.div`
   margin-top: 40px;
 
   .project-links {
+    overflow: hidden;
     display: flex;
     align-items: center;
     position: relative;
@@ -137,10 +138,11 @@ const Hobbies = () => {
 
     sr.reveal(revealContainer.current, srConfig());
   }, []);
+
   return (
     <section id="hobbies">
       <h2 className="numbered-heading">My Hobbies :)</h2>
-      <StyledHobbiesSection>
+      <StyledHobbiesSection ref={revealContainer}>
         <div className="inner">
           <StyledPic>
             <div className="wrapper">
