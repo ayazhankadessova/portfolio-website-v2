@@ -1,25 +1,22 @@
 <h2 align="center">
- <img src="screenshots/1280px-Terraform_Logo.svg.png" width="150"> Portfolio Website - v2 <img src="screenshots/Microsoft_Azure_Logo.png" alt="OpenAI Logo" width="140"> 
+ <img src="https://media.giphy.com/media/fGL6oc26zsv6sA1sLx/giphy.gif" width="90">Portfolio Website - v2 <img src="https://media.giphy.com/media/fGL6oc26zsv6sA1sLx/giphy.gif" width="90">
 </h2>
-
-- v1: https://github.com/ayazhankadessova/portfolio-website-v1 -> [Live Demo](https://ayazhankadessova-portfolio-website.netlify.app)
 
 `Gatsby`, `React`
 
+- v1: https://github.com/ayazhankadessova/portfolio-website-v1 -> [Live Demo](https://ayazhankadessova-portfolio-website.netlify.app)
+
 ## 💡 Motivation
 
-
-## Learned
-
+After repeatedly coming across Gatsby on YouTube, I was motivated to give it a try in order to make my portfolio website more responsive and interactive. Additionally, I wanted to experiment with different color palettes, as my first website had a dark theme. Using React and Gatsby, I was able to create a more dynamic and visually appealing website that showcases my skills and projects in a more engaging way. I am thrilled to continue upgrading and improving this website, not only to better represent my abilities and achievements but also to create a more positive user experience for visitors.
 
 ## Links & Demo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92df0046-adaf-4ece-9fa8-004b36b780cf/deploy-status)](https://app.netlify.com/sites/ayazhan-kadessova/deploys)
 
 <h2 align="center">
- <img src="https://github.com/ayazhankadessova/dev-environment-tf-azure/assets/86869537/b81a062a-f3eb-4dca-9780-da49d1819273" width="700"> 
+ <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/061f661d-4b1a-4891-8731-97002109ce64" width="700"> 
 </h2>
-
 
 ## 🛠 Installation & Set Up
 
