@@ -15,7 +15,7 @@ const StyledHobbiesSection = styled.section`
 
   .inner {
     display: grid;
-    grid-template-columns: 1.5fr 3.5fr;
+    grid-template-columns: 1.75fr 3.25fr;
     grid-gap: 50px;
 
     @media (max-width: 768px) {
@@ -148,102 +148,105 @@ const Hobbies = () => {
       <h2 className="numbered-heading">My Hobbies :)</h2>
       <StyledHobbiesSection ref={revealContainer}>
         <div className="inner">
-          <StyledPic>
-            <div className="wrapper">
-              <StaticImage
-                className="img"
-                src="../../images/me.jpg"
-                width={500}
-                quality={95}
-                formats={['AUTO', 'WEBP', 'AVIF']}
-                alt="Headshot"
-              />
-            </div>
-            <br />
-            <br />
-            <div className="wrapper">
-              <StaticImage
-                className="img"
-                src="../../images/me.jpg"
-                width={500}
-                quality={95}
-                formats={['AUTO', 'WEBP', 'AVIF']}
-                alt="Headshot"
-              />
-            </div>
-          </StyledPic>
-          <StyledText>
-            <div>
-              <p>
-                Apart from my tech experience, I have a diverse range of hobbies that bring me joy:
-              </p>
-              <div className="project-links">
-                <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                  <Icon name="Skiing" />
-                </a>
-                Sports
+          <div>
+            <StyledPic>
+              <div className="wrapper">
+                <StaticImage
+                  className="img"
+                  src="../../images/hobbies1.jpg"
+                  width={500}
+                  quality={95}
+                  formats={['AUTO', 'WEBP', 'AVIF']}
+                  alt="Headshot"
+                />
               </div>
-              - I prefer outdoor sports: Running, swimming, and volleyball, which I played
-              throughout high school and university.
-              <br />- Skiing!!! I believe that the best ski resort is located in Oskemen,
-              Kazakhstan.
-              <br />- I also enjoy going to the gym and prefer to do so with friends, making it a
-              fun bonding activity.
-              <p>
+              <br />
+              <br />
+              <StaticImage
+                className="img"
+                src="../../images/hobbies2.jpg"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Headshot"
+              />
+            </StyledPic>
+          </div>
+          <div>
+            <StyledText>
+              <div>
+                <p>
+                  Apart from my tech experience, I have a diverse range of hobbies that bring me
+                  joy:
+                </p>
                 <div className="project-links">
                   <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="YouTube" />
+                    <Icon name="Skiing" />
                   </a>
-                  YouTube Channel
+                  Sports
                 </div>
-                - I share vlogs from special moments in my life, such as my first day of university
-                or my solo trip to Europe.
-              </p>
-              <p>
-                <div className="project-links">
-                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="Bookmark" />
-                  </a>
-                  Podcasts and books
-                </div>
-                - Particularly ones that explore public policy and social issues. <br />- One of my
-                favorite books is{' '}
-                <a hre="https://www.imf.org/en/Publications/fandd/issues/2020/12/book-review-of-invisible-women-by-caroline-criado-perez">
-                  "Invisible Women"
-                </a>{' '}
-                by Caroline Criado Perez, which highlights the many (shocking) ways in which women's
-                experiences and contributions are often overlooked or undervalued.
-                {/* The book highlights the many ways in which women's
+                - I prefer outdoor sports: Running, swimming, and volleyball, which I played
+                throughout high school and university.
+                <br />- Skiing!!! I believe that the best ski resort is located in Oskemen,
+                Kazakhstan.
+                <br />- I also enjoy going to the gym and prefer to do so with friends, making it a
+                fun bonding activity.
+                <p>
+                  <div className="project-links">
+                    <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                      <Icon name="YouTube" />
+                    </a>
+                    YouTube Channel
+                  </div>
+                  - I share vlogs from special moments in my life, such as my first day of
+                  university or my solo trip to Europe.
+                </p>
+                <p>
+                  <div className="project-links">
+                    <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                      <Icon name="Bookmark" />
+                    </a>
+                    Podcasts and books
+                  </div>
+                  - Particularly ones that explore public policy and social issues. <br />- One of
+                  my favorite books is{' '}
+                  <a hre="https://www.imf.org/en/Publications/fandd/issues/2020/12/book-review-of-invisible-women-by-caroline-criado-perez">
+                    "Invisible Women"
+                  </a>{' '}
+                  by Caroline Criado Perez, which highlights the many (shocking) ways in which
+                  women's experiences and contributions are often overlooked or undervalued.
+                  {/* The book highlights the many ways in which women's
                 experiences and contributions are often overlooked or undervalued. For instance, I
                 was surprised to learn that car crash dummies are mostly based on 'middle man'
                 averages and that many drugs given to women are almost exclusively trialed on men. */}
-              </p>
-              <p>
-                <div className="project-links">
-                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="Codepen" />
-                  </a>
-                  Hackathons
-                </div>
-                - I am also passionate about participating in hackathons. I participated in 5 this
-                year: Code for Good by JP Morgan, Techathon by HKSTP, CityUHack by City University
-                of Hong Kong, Swire Hackathon by Swire and Quantori by Nazarbayev University.
-                <br />- I love the idea of building something for fun with like-minded people!
-              </p>
-              <p>
-                <div className="project-links">
-                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="ItchIo" />
-                  </a>
-                  All-time fav
-                </div>{' '}
-                Lastly, I love going on coffee hops to explore new cafes and spend some time with
-                myself, reflecting, which is calming and peaceful.
-              </p>
-              <p>*This page is in process...*</p>
-            </div>
-            <br />
-          </StyledText>
+                </p>
+                <p>
+                  <div className="project-links">
+                    <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                      <Icon name="Codepen" />
+                    </a>
+                    Hackathons
+                  </div>
+                  - I am also passionate about participating in hackathons. I participated in 5 this
+                  year: Code for Good by JP Morgan, Techathon by HKSTP, CityUHack by City University
+                  of Hong Kong, Swire Hackathon by Swire and Quantori by Nazarbayev University.
+                  <br />- I love the idea of building something for fun with like-minded people!
+                </p>
+                <p>
+                  <div className="project-links">
+                    <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                      <Icon name="ItchIo" />
+                    </a>
+                    All-time fav
+                  </div>{' '}
+                  Lastly, I love going on coffee hops to explore new cafes and spend some time with
+                  myself, reflecting, which is calming and peaceful.
+                </p>
+                <p>*This page is in process...*</p>
+              </div>
+              <br />
+            </StyledText>
+          </div>
         </div>
       </StyledHobbiesSection>{' '}
     </section>
