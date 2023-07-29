@@ -8,18 +8,13 @@
 
 ## 💡 Motivation
 
-I suddenly got inspired to learn more about cloud infrastructure management and how to use automation tools to simplify and streamline the process of deploying and managing cloud resources after completing `Terraform + AWS course` on Udemy (btw, liked it!).
-
-In the course, I was doing small tasks to understand how to create different resources separately and the overall power of Terraform for Infrastructure as Code, but I wanted to combine my knowledge and build something whole!
-
-I chose to build a dev environment in Azure that I can SSH into to have my own redeployable environment & bootstrapped it with it with Docker for future projects.
-
-I could practice managing cloud resources and learn more about Azure!
 
 ## Learned
 
 
 ## Links & Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/92df0046-adaf-4ece-9fa8-004b36b780cf/deploy-status)](https://app.netlify.com/sites/ayazhan-kadessova/deploys)
 
 <h2 align="center">
  <img src="https://github.com/ayazhankadessova/dev-environment-tf-azure/assets/86869537/b81a062a-f3eb-4dca-9780-da49d1819273" width="700"> 
@@ -89,15 +84,13 @@ The color variables are all defined in `src/styles/variables.js`. **The variable
 
 ## Credits
 
-- Adapted from [Brittany Chiang's Design on GitHub](https://github.com/bchiang7).
+- Inspired by [Brittany Chiang's Design on GitHub](https://github.com/bchiang7/bchiang7.github.io).
 
 ## About Me
 
 I'm an aspiring software developer from Kazakhstan, studying in Hong Kong.
 
-👩‍💻 I'm currently improving my skills in React.js :)
-
-- But as you see, in this project I learned Cloud Management & Automation :)
+I love experimenting with various tech stack. Here is my first project using Gatsby ;)
 
 - [@ayazhankadessova](https://github.com/ayazhankadessova)
 - [Linkedin](https://www.linkedin.com/in/ayazhankad/)
