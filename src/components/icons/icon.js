@@ -15,11 +15,13 @@ import {
 // font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  faStrava,
   faGithub,
   faYoutube,
   faLinkedin,
   faMedium,
   faItchIo,
+  faCodepen,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Icon = ({ name }) => {
@@ -54,8 +56,12 @@ const Icon = ({ name }) => {
       return <FontAwesomeIcon icon={faItchIo} />;
     case 'YouTube':
       return <FontAwesomeIcon icon={faYoutube} />;
+    case 'Skiing':
+      return <FontAwesomeIcon icon={faStrava} />;
     case 'Medium':
       return <FontAwesomeIcon icon={faMedium} />;
+    case 'Codepen':
+      return <FontAwesomeIcon icon={faCodepen} />;
     default:
       return <IconExternal />;
   }

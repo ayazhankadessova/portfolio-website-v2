@@ -6,7 +6,10 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
+  margin-left: 10px;
   max-width: 900px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   .inner {
     display: grid;

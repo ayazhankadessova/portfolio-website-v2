@@ -9,9 +9,13 @@ import { Icon } from '@components/icons';
 const StyledHobbiesSection = styled.section`
   max-width: 900px;
 
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   .inner {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1.5fr 3.5fr;
     grid-gap: 50px;
 
     @media (max-width: 768px) {
@@ -155,6 +159,18 @@ const Hobbies = () => {
                 alt="Headshot"
               />
             </div>
+            <br />
+            <br />
+            <div className="wrapper">
+              <StaticImage
+                className="img"
+                src="../../images/me.jpg"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Headshot"
+              />
+            </div>
           </StyledPic>
           <StyledText>
             <div>
@@ -163,7 +179,7 @@ const Hobbies = () => {
               </p>
               <div className="project-links">
                 <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                  <Icon name="Star" />
+                  <Icon name="Skiing" />
                 </a>
                 Sports
               </div>
@@ -186,7 +202,7 @@ const Hobbies = () => {
               <p>
                 <div className="project-links">
                   <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="Star" />
+                    <Icon name="Bookmark" />
                   </a>
                   Podcasts and books
                 </div>
@@ -205,7 +221,7 @@ const Hobbies = () => {
               <p>
                 <div className="project-links">
                   <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="Star" />
+                    <Icon name="Codepen" />
                   </a>
                   Hackathons
                 </div>
@@ -217,7 +233,7 @@ const Hobbies = () => {
               <p>
                 <div className="project-links">
                   <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
-                    <Icon name="Star" />
+                    <Icon name="ItchIo" />
                   </a>
                   All-time fav
                 </div>{' '}
