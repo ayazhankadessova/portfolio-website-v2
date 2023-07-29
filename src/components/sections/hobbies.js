@@ -162,24 +162,19 @@ const Hobbies = () => {
               </div>
               <br />
               <br />
-              <StaticImage
-                className="img"
-                src="../../images/hobbies2.jpg"
-                width={500}
-                quality={95}
-                formats={['AUTO', 'WEBP', 'AVIF']}
-                alt="Headshot"
-              />
             </StyledPic>
             <StyledPic>
-              <StaticImage
-                className="img"
-                src="../../images/hobbies2.jpg"
-                width={500}
-                quality={95}
-                formats={['AUTO', 'WEBP', 'AVIF']}
-                alt="Headshot"
-              />
+              <div className="wrapper">
+                <StaticImage
+                  className="img"
+                  src="../../images/hobbies2.jpg"
+                  width={500}
+                  quality={95}
+                  formats={['AUTO', 'WEBP', 'AVIF']}
+                  alt="Headshot"
+                />
+              </div>
+              <br />
             </StyledPic>
           </div>
           <div>
