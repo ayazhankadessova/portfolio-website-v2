@@ -189,14 +189,16 @@ const Hobbies = () => {
                   Podcasts and books
                 </div>
                 - Particularly ones that explore public policy and social issues. <br />- One of my
-                favorite books is
+                favorite books is{' '}
                 <a hre="https://www.imf.org/en/Publications/fandd/issues/2020/12/book-review-of-invisible-women-by-caroline-criado-perez">
-                  "Invisible Women: Data Bias in a World Designed for Men"
-                </a>
-                by Caroline Criado Perez. The book highlights the many ways in which women's
+                  "Invisible Women"
+                </a>{' '}
+                by Caroline Criado Perez, which highlights the many (shocking) ways in which women's
+                experiences and contributions are often overlooked or undervalued.
+                {/* The book highlights the many ways in which women's
                 experiences and contributions are often overlooked or undervalued. For instance, I
                 was surprised to learn that car crash dummies are mostly based on 'middle man'
-                averages and that many drugs given to women are almost exclusively trialed on men.
+                averages and that many drugs given to women are almost exclusively trialed on men. */}
               </p>
               <p>
                 <div className="project-links">
