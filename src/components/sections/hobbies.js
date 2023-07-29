@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import { Icon } from '@components/icons';
 
 const StyledHobbiesSection = styled.section`
   max-width: 900px;
@@ -22,6 +23,39 @@ const StyledHobbiesSection = styled.section`
 
 const StyledText = styled.div`
   margin-top: 40px;
+
+  .project-links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -10px;
+    color: var(--dark-slate);
+
+    &:hover,
+    &:focus {
+      color: var(--green);
+      text-decoration: underline;
+    }
+
+    a {
+      ${({ theme }) => theme.mixins.flexCenter};
+      padding: 5px 5px 12px 5px;
+
+      &.external {
+        svg {
+          width: 22px;
+          height: 20px;
+          margin-top: -4px;
+        }
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
 `;
 
 const StyledPic = styled.div`
@@ -124,28 +158,67 @@ const Hobbies = () => {
             <div>
               <p>
                 Apart from my tech experience, I have a diverse range of hobbies that bring me joy:
-                - Outdoor sports: running, swimming, and volleyball, which I played throughout high
-                school and university. - Skiing --- I believe that the best ski resort is located in
-                Oskemen, Kazakhstan. Additionally, I enjoy going to the gym and prefer to do so with
-                friends, making it a fun social activity.
+              </p>
+              <div className="project-links">
+                <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                  <Icon name="Star" />
+                </a>
+                Sports
+              </div>
+              - I prefer outdoor sports: Running, swimming, and volleyball, which I played
+              throughout high school and university.
+              <br />- Skiing!!! I believe that the best ski resort is located in Oskemen,
+              Kazakhstan.
+              <br />- I also enjoy going to the gym and prefer to do so with friends, making it a
+              fun bonding activity.
+              <p>
+                <div className="project-links">
+                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                    <Icon name="YouTube" />
+                  </a>
+                  YouTube Channel
+                </div>
+                - I share vlogs from special moments in my life, such as my first day of university
+                or my solo trip to Europe.
               </p>
               <p>
-                - YouTube channel where I share vlogs from special moments in my life, such as my
-                first day of university or my solo trip to Europe.
+                <div className="project-links">
+                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                    <Icon name="Star" />
+                  </a>
+                  Podcasts and books
+                </div>
+                - Particularly ones that explore public policy and social issues. <br />- One of my
+                favorite books is
+                <a hre="https://www.imf.org/en/Publications/fandd/issues/2020/12/book-review-of-invisible-women-by-caroline-criado-perez">
+                  "Invisible Women: Data Bias in a World Designed for Men"
+                </a>
+                by Caroline Criado Perez. The book highlights the many ways in which women's
+                experiences and contributions are often overlooked or undervalued. For instance, I
+                was surprised to learn that car crash dummies are mostly based on 'middle man'
+                averages and that many drugs given to women are almost exclusively trialed on men.
               </p>
               <p>
-                - Podcasts and books, particularly ones that explore public policy and social
-                issues. One of my all-time favorite books is "Invisible Women" by Caroline Criado
-                Perez, which offers a groundbreaking perspective on gender inequality and its impact
-                on women's lives. - I am also passionate about participating in hackathons, such as
-                Techathon, Cybher, and Swire, which allow me to showcase my skills and collaborate
-                with like-minded individuals.
+                <div className="project-links">
+                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                    <Icon name="Star" />
+                  </a>
+                  Hackathons
+                </div>
+                - I am also passionate about participating in hackathons. I participated in 5 this
+                year: Code for Good by JP Morgan, Techathon by HKSTP, CityUHack by City University
+                of Hong Kong, Swire Hackathon by Swire and Quantori by Nazarbayev University.
+                <br />- I love the idea of building something for fun with like-minded people!
               </p>
-
               <p>
-                {' '}
-                Lastly, I love going on coffee hops to explore new cafes and try different blends,
-                which is both relaxing and energizing.
+                <div className="project-links">
+                  <a href="https://www.youtube.com/channel/UC9SnJoAITiY89RGigVYTw3g">
+                    <Icon name="Star" />
+                  </a>
+                  All-time fav
+                </div>{' '}
+                Lastly, I love going on coffee hops to explore new cafes and spend some time with
+                myself, reflecting, which is calming and peaceful.
               </p>
               <p>*This page is in process...*</p>
             </div>

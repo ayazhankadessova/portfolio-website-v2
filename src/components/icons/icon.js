@@ -3,29 +3,24 @@ import PropTypes from 'prop-types';
 import {
   IconAppStore,
   IconBookmark,
-  IconCodepen,
   IconExternal,
   IconFolder,
   IconFork,
-  IconGitHub,
   IconInstagram,
-  IconLinkedin,
   IconLoader,
   IconLogo,
   IconPlayStore,
   IconStar,
-  IconTwitter,
 } from '@components/icons';
 // font awesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { 
-  faGithub, 
-  faYoutube, 
-  faLinkedin, 
-  faMedium, 
-  faItchIo, 
-  faFreeCodeCamp,
-} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithub,
+  faYoutube,
+  faLinkedin,
+  faMedium,
+  faItchIo,
+} from '@fortawesome/free-brands-svg-icons';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -33,8 +28,6 @@ const Icon = ({ name }) => {
       return <IconAppStore />;
     case 'Bookmark':
       return <IconBookmark />;
-    case 'Codepen':
-      return <IconCodepen />;
     case 'External':
       return <IconExternal />;
     case 'Folder':
@@ -57,11 +50,6 @@ const Icon = ({ name }) => {
       return <IconPlayStore />;
     case 'Star':
       return <IconStar />;
-    case 'Twitter':
-      return <IconTwitter />;
-    // font awesome brand logos
-    case 'FreeCodeCamp':
-      return <FontAwesomeIcon icon={faFreeCodeCamp} />;
     case 'ItchIo':
       return <FontAwesomeIcon icon={faItchIo} />;
     case 'YouTube':
