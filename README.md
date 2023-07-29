@@ -15,7 +15,7 @@ After repeatedly coming across Gatsby on YouTube, I was motivated to give it a t
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92df0046-adaf-4ece-9fa8-004b36b780cf/deploy-status)](https://app.netlify.com/sites/ayazhan-kadessova/deploys)
 
 <h2 align="center">
- <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/061f661d-4b1a-4891-8731-97002109ce64" width="700"> 
+ <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/5438b555-d3e9-45b5-b75d-eddafc480d3f" width="700"> 
 </h2>
 
 ## 🛠 Installation & Set Up
