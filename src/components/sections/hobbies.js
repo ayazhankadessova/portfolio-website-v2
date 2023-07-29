@@ -171,6 +171,16 @@ const Hobbies = () => {
                 alt="Headshot"
               />
             </StyledPic>
+            <StyledPic>
+              <StaticImage
+                className="img"
+                src="../../images/hobbies2.jpg"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Headshot"
+              />
+            </StyledPic>
           </div>
           <div>
             <StyledText>
