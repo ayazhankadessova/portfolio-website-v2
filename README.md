@@ -13,6 +13,7 @@ After repeatedly coming across Gatsby on YouTube, I was motivated to give it a t
 ## Links & Demo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92df0046-adaf-4ece-9fa8-004b36b780cf/deploy-status)](https://app.netlify.com/sites/ayazhan-kadessova/deploys)
+![ayazhan-kadessova-portfolio](https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/6942d916-432c-4d90-b120-400d252e9cd5)
 
 <h2 align="center">
  <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/5438b555-d3e9-45b5-b75d-eddafc480d3f" width="700"> 
