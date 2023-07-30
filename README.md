@@ -60,7 +60,9 @@ I will work on upgrading this site!
 
 ## 🎨 Color Reference
 
-The color variables are all defined in `src/styles/variables.js`. **The variable name does not necessarily correspond to the actual color value** because I was experimenting with a lot of different color schemes.
+The color variables are all defined in `src/styles/variables.js`. 
+
+**The variable name does not always correspond to the actual color value** since I was experimenting :)
 
 | Variable Name       | Hex                                                                                          |
 |---------------------|----------------------------------------------------------------------------------------------|
