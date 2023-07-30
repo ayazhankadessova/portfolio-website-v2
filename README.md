@@ -11,10 +11,9 @@
 After repeatedly coming across Gatsby on YouTube, I was motivated to give it a try in order to make my portfolio website more responsive and interactive. Additionally, I wanted to experiment with different color palettes, as my first website had a dark theme. Using React and Gatsby, I was able to create a more dynamic and visually appealing website that showcases my skills and projects in a more engaging way. I am thrilled to continue upgrading and improving this website, not only to better represent my abilities and achievements but also to create a more positive user experience for visitors.
 
 ## Links & Demo
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92df0046-adaf-4ece-9fa8-004b36b780cf/deploy-status)](https://app.netlify.com/sites/ayazhan-kadessova/deploys)
 <h2 align="center">
- <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/6942d916-432c-4d90-b120-400d252e9cd5" width="700"> 
+ <img src="https://github.com/ayazhankadessova/portfolio-website-v2/assets/86869537/2ced8a98-5135-49fc-8584-c45d2c2aafb7" width="700"> 
 </h2>
 
 ## 🛠 Installation & Set Up
