@@ -215,7 +215,7 @@ const Hobbies = () => {
                   </div>
                   - Particularly ones that explore public policy and social issues. <br />- One of
                   my favorite books is{' '}
-                  <a hre="https://www.imf.org/en/Publications/fandd/issues/2020/12/book-review-of-invisible-women-by-caroline-criado-perez">
+                  <a href="https://www.imf.org/en/Publications/fandd/issues/2020/12/book-review-of-invisible-women-by-caroline-criado-perez">
                     "Invisible Women"
                   </a>{' '}
                   by Caroline Criado Perez, which highlights the many (shocking) ways in which
@@ -233,8 +233,22 @@ const Hobbies = () => {
                     Hackathons
                   </div>
                   - I am also passionate about participating in hackathons. I participated in 5 this
-                  year: Code for Good by JP Morgan, Techathon by HKSTP, CityUHack by City University
-                  of Hong Kong, Swire Hackathon by Swire and Quantori by Nazarbayev University.
+                  year:{' '}
+                  <a href="https://www.linkedin.com/posts/ayazhankad_codeforgood-activity-6981582028399939584--kC8?utm_source=share&utm_medium=member_desktop">
+                    Code for Good
+                  </a>{' '}
+                  by JP Morgan,
+                  <a href="https://www.comp.hkbu.edu.hk/v1/?page=std_ach&id=182">Techathon</a> by
+                  HKSTP,{' '}
+                  <a href="https://www.linkedin.com/posts/ayazhankad_this-week-i-had-a-chance-to-participate-in-activity-7030418307241447424-7Bq1?utm_source=share&utm_medium=member_desktop">
+                    CityUHack
+                  </a>{' '}
+                  by City University of Hong Kong, Swire Hackathon by Swire, Quantori by Nazarbayev
+                  University,{' '}
+                  <a hre="https://www.comp.hkbu.edu.hk/v1/?page=std_ach&id=181#:~:text=2023%20%7C%20HKBU%20COMP-,Computer%20Science%20Undergraduates%20Win%20the%20Best%20Presentation,the%20Hong%20Kong%20Techathon%202023&text=Team%20NoDea%20won%20the%20Best,Award%20in%20the%20presentation%20ceremony.">
+                    AUHack
+                  </a>{' '}
+                  by Aarhus University.
                   <br />- I love the idea of building something for fun with like-minded people!
                 </p>
                 <p>
