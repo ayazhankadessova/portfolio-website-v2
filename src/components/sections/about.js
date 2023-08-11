@@ -159,8 +159,9 @@ const About = () => {
 
               <p>
                 <b> I love participating in Hackathons </b> – I even traveled all the way to one in
-                Denmark. We earned <a href="https://bit.ly/bucs-a182">3rd place</a> based on the
-                latency and the number of data points! I shared my experience{' '}
+                Denmark. We earned{' '}
+                <a href="https://www.comp.hkbu.edu.hk/v1/?page=std_ach&id=182">3rd place</a> based
+                on the latency and the number of data points! I shared my experience{' '}
                 <a href="https://www.linkedin.com/posts/ayazhankad_auhack-hackathon-incommodities-activity-7045769900644040704-bs-z?utm_source=share&utm_medium=member_desktop">
                   here
                 </a>
