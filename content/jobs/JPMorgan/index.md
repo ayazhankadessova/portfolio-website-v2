@@ -1,7 +1,7 @@
 ---
 date: '2021-8-2'
 title: 'Software Engineer Intern'
-company: 'J.P.Morgan'
+company: 'J.P.Morgan AWM'
 location: 'Kowloon, Hong Kong'
 range: 'June 2023 - Present'
 url: 'https://careers.jpmorgan.com/global/en/students/programs/software-engineer-summer'

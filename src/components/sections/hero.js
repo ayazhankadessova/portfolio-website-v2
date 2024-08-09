@@ -66,7 +66,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a <b>Software Engineering Intern</b> at{' '}
+        I am a 2x<b>Software Engineering Intern</b> at{' '}
         <a
           href="https://careers.jpmorgan.com/global/en/students/programs/software-engineer-summer?search=&tags="
           target="_blank">
@@ -75,7 +75,7 @@ const Hero = () => {
         , aspiring Software Developer and a life-long learner.
       </p>
       <p>
-        I am pursuing <b>BSc in Computer Science</b>, with a concentration in Computing and Software
+        I am a senior <b>BSc in Computer Science</b>, with a concentration in Computing and Software
         Technologies at{' '}
         <a href="https://www.hkbu.edu.hk/" target="_blank">
           Hong Kong Baptist University
